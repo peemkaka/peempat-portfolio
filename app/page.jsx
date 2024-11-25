@@ -4,6 +4,7 @@ import Stats from '@/components/Stats'
 import { Button } from '@/components/ui/button'
 import React from 'react'
 import { FiDownload } from 'react-icons/fi'
+ 
 
 const Home = () => {
   return (
