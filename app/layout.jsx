@@ -5,6 +5,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
+import React from "react";
 
 const jetbrainsMono = JetBrains_Mono(
   { 
@@ -21,6 +22,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    <React.StrictMode>
     <html lang="en" suppressHydrationWarning>
       <body
         className={jetbrainsMono.variable}
@@ -32,5 +34,6 @@ export default function RootLayout({ children }) {
         </PageTransition>
       </body>
     </html>
+    </React.StrictMode>
   );
 }
