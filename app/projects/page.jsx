@@ -55,13 +55,13 @@ const works = [
     num: '04',
     category: 'frontend',
     title: 'Auth System',
-    description: 'Mock up',
+    description: 'Auth System / Easy Note (todo website)',
     stack:[
-      {name: 'React.js'},{name:"Tailwind.css"},
+      {name: 'React.js'},{name:"Tailwind.css"},{name:"Firebase"}
     ],
-    image:'/assets/work/thumb2.png',
-    live:'',
-    github:'',
+    image:'/assets/work/thumb4.png',
+    live:'https://peempat-easynote.netlify.app',
+    github:'https://github.com/peemkaka/peempat-easynote',
   },
   {
     num: '05',
@@ -74,19 +74,7 @@ const works = [
     image:'/assets/work/thumb5.png',
     live:'offline',
     github:'https://github.com/INT-365-Project',
-  },
-  {
-    num: '06',
-    category: 'University INT222',
-    title: 'Booking Room for Hotel Service',
-    description: 'My responsible for designing website and coding user interface functions developing CRUD function by using Vue.js',
-    stack:[
-      {name: 'Vue.js'},{name:"Tailwind.css"},{name:"Spring boot"},{name:"MySQL"}
-    ],
-    image:'/assets/work/thumb3.png',
-    live:'offline',
-    github:'https://github.com/INT222-Project',
-  },
+  }
 ]
 
 const Projects = () => {
