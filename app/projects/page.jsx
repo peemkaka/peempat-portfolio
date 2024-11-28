@@ -55,7 +55,7 @@ const works = [
     num: '04',
     category: 'frontend',
     title: 'Auth System',
-    description: 'Auth System / Easy Note (todo website)',
+    description: 'Auth System using firebase authentication / Easy Note (todo website) ',
     stack:[
       {name: 'React.js'},{name:"Tailwind.css"},{name:"Firebase"}
     ],
