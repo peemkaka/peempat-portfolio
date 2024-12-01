@@ -29,30 +29,18 @@ const works = [
   },
   {
     num: '02',
-    category: 'frontend',
+    category: 'fullstack',
     title: 'Food Order App',
-    description: 'Mock up',
+    description: 'A website about food order online using Clerk for authentication and using Hygraph for Backend',
     stack:[
-      {name: 'React.js'},{name:"Tailwind.css"},
+      {name: 'React.js'},{name:"Tailwind.css"},{name:"Clerk"},{name:"Hygraph"}
     ],
     image:'/assets/work/thumb2.png',
-    live:'',
-    github:'',
+    live:'offline',
+    github:'https://github.com/peemkaka/peempat-foodOrder',
   },
   {
     num: '03',
-    category: 'frontend',
-    title: 'Shop webapplication',
-    description: 'Mock up',
-    stack:[
-      {name: 'React.js'},{name:"Tailwind.css"},
-    ],
-    image:'/assets/work/thumb1.png',
-    live:'',
-    github:'',
-  },
-  {
-    num: '04',
     category: 'frontend',
     title: 'Auth System',
     description: 'Auth System using firebase authentication / Easy Note (todo website) ',
@@ -64,7 +52,7 @@ const works = [
     github:'https://github.com/peemkaka/peempat-easynote',
   },
   {
-    num: '05',
+    num: '04',
     category: 'University INT365',
     title: 'Sit Chatbot and web Application',
     description: 'My responsible is Front-End Developer for coding Front-End user interface functions, developing CRUD function by using Next.js and tailwind css , managing Line OA and using LIFF(LINE Front-End Framework) for working with web application',
