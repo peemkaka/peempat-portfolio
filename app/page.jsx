@@ -13,18 +13,18 @@ const Home = () => {
         <div className='flex flex-col xl:flex-row items-center justify-between'>
           {/* text */}
           <div className='text-center xl:text-left order-2 xl:order-none'>
-            <p>Software Developer</p>
+            <p>Software Engineer</p>
             <h1 className='h1'>
-              Hello I'm <br />
+              Hello I am <br />
               <span className='text-accent'>Peempat Pinsang</span>
             </h1>
             <p className='max-w-[500px] mb-9 text-white/80'>
-              I am a motivated and
-              passionate IT with a strong foundation in programming and I have
-              experience working on many projects while studying
+              I am a motivated and passionate IT graduate with a solid foundation in programming and hands-on experience from multiple real-world projects during my studies.
+               I am eager to grow, build impactful web applications, 
+               and contribute to modern development teams.
             </p>
             <div className='flex flex-col xl:flex-row items-center gap-8'>
-              <a target="_blank" href='https://drive.google.com/file/d/1svmdHpMbwvIyMw0CUaquz-gYXKxmZRoe/view?usp=sharing' rel='noopener noreferrer'>
+              <a target="_blank" href='https://drive.google.com/file/d/1Ct0ITx7Tw81QwnH1s3VK7u1Kdr0ko1UP/view?usp=sharing' rel='noopener noreferrer'>
                 <Button variant="outline"
                   size="lg"
                   className="uppercase flex items-center gap-2">

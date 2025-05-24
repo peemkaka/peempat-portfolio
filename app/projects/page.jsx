@@ -41,6 +41,18 @@ const works = [
   },
   {
     num: '03',
+    category: 'Work',
+    title: 'G Kull Ecommerce Admin',
+    description: 'A website about admin team of gkull management about product and account',
+    stack:[
+      {name: 'Next.js'},{name:"Ant Design"},{name:"Tailwind.css"},{name:"MySQL"}
+    ],
+    image:'/assets/work/gke.png',
+    live:'offline',
+    github:'',
+  },
+  {
+    num: '04',
     category: 'frontend',
     title: 'Auth System',
     description: 'Auth System using firebase authentication / Easy Note (todo website) ',
@@ -52,7 +64,7 @@ const works = [
     github:'https://github.com/peemkaka/peempat-easynote',
   },
   {
-    num: '04',
+    num: '05',
     category: 'University INT365',
     title: 'Sit Chatbot and web Application',
     description: 'My responsible is Front-End Developer for coding Front-End user interface functions, developing CRUD function by using Next.js and tailwind css , managing Line OA and using LIFF(LINE Front-End Framework) for working with web application',
