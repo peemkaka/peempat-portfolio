@@ -212,15 +212,15 @@ const Resume = () => {
                         lg:text-left">
                           {item.position}
                         </h3>
-                        <div className="flex items-center gap-3">
+                        <div className="flex gap-3 items-center">
                           {/*dot*/}
                           <span className="w-[6px] h-[6px] rounded-full bg-accent">
                           </span>
-                          <p className="text-white/60 pb-2 font-semibold">{item.company}</p>
+                          <p className="pb-2 font-semibold text-white/60">{item.company}</p>
                         </div>
                         <div>
                           <p className="text-white/60 text-[14px]">{item.description}</p>
-                          <ul className="list-disc pl-4 mt-2 text-left">
+                          <ul className="pl-4 mt-2 list-disc text-left">
                             {item.list.map((temp) => (
                               <li key={temp.id} className="pb-[4px] text-white/60 text-[12px]">
                                 {temp.title}
@@ -250,11 +250,11 @@ const Resume = () => {
                           {item.school}
                         </h3>
                         <p className="text-white/60">{item.degree}</p>
-                        <div className="flex items-center xl:justify-start justify-center gap-3">
+                        <div className="flex gap-3 justify-center items-center xl:justify-start">
                           {/*dot*/}
                           <span className="w-[6px] h-[6px] rounded-full bg-accent">
                           </span>
-                          <p className="text-white/60 font-semibold">GPAX {item.gpax}</p>
+                          <p className="font-semibold text-white/60">GPAX {item.gpax}</p>
                         </div>
                       </li>
                     })}
@@ -275,7 +275,7 @@ const Resume = () => {
                       <TooltipProvider delayDuration={100}>
                         <Tooltip>
                           <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center ">
-                            <div className="text-6xl hover:text-accent transition-all duration-300">
+                            <div className="text-6xl transition-all duration-300 hover:text-accent">
                               {skill.icon}
                             </div>
                           </TooltipTrigger>
@@ -290,18 +290,16 @@ const Resume = () => {
               </div>
             </TabsContent>
             {/*About me*/}
-            <TabsContent value="about" className="w-full text-center xl:text-left h-full">
+            <TabsContent value="about" className="w-full h-full text-center xl:text-left">
               <div className="flex flex-col gap-[30px]">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
-                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 min-w-[620px]
+                <p className="md:max-w-[600px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
+                <ul className="grid grid-cols-1 gap-y-6 xl:grid-cols-2 md:min-w-[620px]
                 mx-auto xl:mx-0">
                   {about.info.map((item, index) => {
-                    return <li key={index} className="flex items-center justify-center
-                    xl:justify-start gap-4
-                    ">
+                    return <li key={index} className="flex gap-4 justify-center items-center xl:justify-start">
                       <span className="text-white/60">{item.fieldName}</span>
-                      <span className="text-md">{item.fieldValue}</span>
+                      <span className="text-sm md:text-md">{item.fieldValue}</span>
                     </li>
                   })}
                 </ul>

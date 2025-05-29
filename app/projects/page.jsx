@@ -15,20 +15,9 @@ import Image from "next/image";
 import WorkSliderBtns from '@/components/WorkSliderBtns';
 
 const works = [
+  
   {
     num: '01',
-    category: 'frontend',
-    title: 'Portfolio website',
-    description: 'A website that collects information, contact channels and my work.',
-    stack:[
-      {name: 'Next.js'},{name:"Tailwind.css"},{name:"Framer Motion"}
-    ],
-    image:'/assets/work/thumb1.1.png',
-    live:'',
-    github:'https://github.com/peemkaka/peempat-portfolio',
-  },
-  {
-    num: '02',
     category: 'fullstack',
     title: 'Food Order App',
     description: 'A website about food order online using Clerk for authentication and using Hygraph for Backend',
@@ -40,7 +29,7 @@ const works = [
     github:'https://github.com/peemkaka/peempat-foodOrder',
   },
   {
-    num: '03',
+    num: '02',
     category: 'Work',
     title: 'G Kull Ecommerce Admin',
     description: 'A website about admin team of gkull management about product and account',
@@ -50,6 +39,18 @@ const works = [
     image:'/assets/work/gke.png',
     live:'offline',
     github:'',
+  },
+  {
+    num: '03',
+    category: 'frontend',
+    title: 'Portfolio website',
+    description: 'A website that collects information, contact channels and my work.',
+    stack:[
+      {name: 'Next.js'},{name:"Tailwind.css"},{name:"Framer Motion"}
+    ],
+    image:'/assets/work/thumb1.1.png',
+    live:'',
+    github:'https://github.com/peemkaka/peempat-portfolio',
   },
   {
     num: '04',
@@ -114,7 +115,7 @@ const Projects = () => {
                     <div className='h-[460px] relative group flex justify-center
                     items-center bg-pink-50/20'>
                         {/* overlay */}
-                        <div className='absolute top-0 bottom-0 w-full h-full bg-black/10 z-10'> 
+                        <div className='absolute top-0 bottom-0 z-10 w-full h-full bg-black/10'> 
                         </div>
                         {/* image */}
                         <div className='relative w-full h-full'>
@@ -139,7 +140,7 @@ const Projects = () => {
           '>
             <div className='flex flex-col gap-[30px] h-[50%]'>
               {/*outline num*/}
-              <div className='text-8xl leading-none font-extrabold text-accent'>
+              <div className='text-8xl font-extrabold leading-none text-accent'>
                 {project.num}
               </div>
               {/*project category*/}
@@ -177,9 +178,7 @@ const Projects = () => {
                       <TooltipTrigger className='w-[70px] h-[70px] 
                       rounded-full bg-white/5 flex justify-center items-center 
                       group'>
-                        <BsArrowUpRight className='
-                        text-white text-3xl group-hover:text-accent
-                        '/>
+                        <BsArrowUpRight className='text-3xl text-white group-hover:text-accent'/>
                       </TooltipTrigger>
                       <TooltipContent>
                         <p>Live project</p>
@@ -194,7 +193,7 @@ const Projects = () => {
                       <TooltipTrigger className='w-[70px] h-[70px] rounded-full
                       bg-white/5 flex justify-center items-center group
                       '>
-                        <BsGithub className='text-white text-3xl group-hover:text-accent'/>
+                        <BsGithub className='text-3xl text-white group-hover:text-accent'/>
                       </TooltipTrigger>
                       <TooltipContent>
                         <p>Github repository</p>
