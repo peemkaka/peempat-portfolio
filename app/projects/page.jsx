@@ -15,12 +15,24 @@ import Image from "next/image";
 import WorkSliderBtns from '@/components/WorkSliderBtns';
 
 const works = [
-  
   {
     num: '01',
+    category: 'frontend',
+    title: 'Medium Clone',
+    description: 'A Medium-like blog platform built with React, Vite, Tailwind CSS, and Firebase. (features in readme on github)',
+    stack:[
+      {name: 'React.js'},{name:"Tailwind.css"},{name:"Vite"},{name:"Firebase"}
+    ],
+    image:'/assets/work/medium.png',
+    live:'https://peempat-mediumclone.netlify.app/demo',
+    github:'https://github.com/peemkaka/peempat-blogsmedium',
+  },
+  
+  {
+    num: '02',
     category: 'fullstack',
     title: 'Food Order App',
-    description: 'A website about food order online using Clerk for authentication and using Hygraph for Backend',
+    description: 'A website about food order online using React,Tailwind CSS ,clerk and hygraph. (features in readme on github',
     stack:[
       {name: 'React.js'},{name:"Tailwind.css"},{name:"Clerk"},{name:"Hygraph"}
     ],
@@ -29,7 +41,7 @@ const works = [
     github:'https://github.com/peemkaka/peempat-foodOrder',
   },
   {
-    num: '02',
+    num: '03',
     category: 'Work',
     title: 'G Kull Ecommerce Admin',
     description: 'A website about admin team of gkull management about product and account',
@@ -41,7 +53,7 @@ const works = [
     github:'',
   },
   {
-    num: '03',
+    num: '04',
     category: 'frontend',
     title: 'Portfolio website',
     description: 'A website that collects information, contact channels and my work.',
@@ -53,7 +65,7 @@ const works = [
     github:'https://github.com/peemkaka/peempat-portfolio',
   },
   {
-    num: '04',
+    num: '05',
     category: 'frontend',
     title: 'Auth System',
     description: 'Auth System using firebase authentication / Easy Note (todo website) ',
@@ -65,7 +77,7 @@ const works = [
     github:'https://github.com/peemkaka/peempat-easynote',
   },
   {
-    num: '05',
+    num: '06',
     category: 'University INT365',
     title: 'Sit Chatbot and web Application',
     description: 'My responsible is Front-End Developer for coding Front-End user interface functions, developing CRUD function by using Next.js and tailwind css , managing Line OA and using LIFF(LINE Front-End Framework) for working with web application',
