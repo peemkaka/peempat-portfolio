@@ -27,7 +27,7 @@ const works = [
     description:
       "A website about food order online using React,Tailwind CSS ,clerk and hygraph. (features in readme on github",
     stack: [
-      { name: "React.js" },
+      { name: "Next.js" },
       { name: "Tailwind.css" },
       { name: "Clerk" },
       { name: "Hygraph" },
