@@ -24,7 +24,7 @@ const Home = () => {
                and contribute to modern development teams.
             </p>
             <div className='flex flex-col xl:flex-row items-center gap-8'>
-              <a target="_blank" href='https://drive.google.com/file/d/1Ct0ITx7Tw81QwnH1s3VK7u1Kdr0ko1UP/view?usp=sharing' rel='noopener noreferrer'>
+              <a target="_blank" href='https://drive.google.com/file/d/11Kt8-GgLRffD5wJy1TspR5ujkSWVPzFr/view?usp=sharing' rel='noopener noreferrer'>
                 <Button variant="outline"
                   size="lg"
                   className="uppercase flex items-center gap-2">
